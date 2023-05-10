@@ -2,26 +2,24 @@ import {
   Avatar,
   Button,
   Card,
-  Carousel,
   Col,
   Divider,
   Image,
   Layout,
   Pagination,
-  Row,
-  Space,
+  Row
 } from "antd";
-import React from "react";
 import Paragraph from "antd/es/typography/Paragraph";
-import tuanNe from '../../assets/avatar/tuanne.jpg'
-import trung from '../../assets/avatar/trung.jpg'
-import quyen from '../../assets/avatar/quyen.png'
-import thinh from '../../assets/avatar/thinh.jpg'
-import phong from '../../assets/avatar/phong.png'
+import React from "react";
+import phong from '../../assets/avatar/phong.png';
+import quyen from '../../assets/avatar/quyen.png';
+import thinh from '../../assets/avatar/thinh.jpg';
+import trung from '../../assets/avatar/trung.jpg';
+import tuanNe from '../../assets/avatar/tuanne.jpg';
 import ContentNew from "../../shares/content/ContentNew";
+import FooterNew from "../../shares/footer/FooterNew";
 import NavBar from "../../shares/navbar/NavBar";
 import SliderShow from "../../shares/slidershow/SliderShow";
-import FooterNew from "../../shares/footer/FooterNew";
 
 const HomePage = () => {
   return (

@@ -5,7 +5,7 @@ import "./footerNew.css";
 const FooterNew = () => {
   return (
     <Layout
-      style={{ height: "300px", backgroundColor: "black", color: "white" }}
+      style={{ height: "300px", backgroundColor: "black", color: "white" ,padding:'20px'}}
     >
       <Row style={{ justifyContent: "center", display: "flex" }} >
         <Col span={7} offset={2}>

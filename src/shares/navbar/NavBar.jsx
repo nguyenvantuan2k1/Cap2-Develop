@@ -1,6 +1,6 @@
+import React from 'react';
 import { CloudFilled, MailFilled } from "@ant-design/icons";
-import { Button, Space } from "antd";
-import React from "react";
+import { Button, Image, Space } from "antd";
 import logo from "../../assets/image/logonetfarm.png";
 import "./navbar.css";
 
@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div>
       <div id="main-navbar" className="navbar">
-        <img src={logo} style={{ height: "60px" }} />
+        <Image src={logo} style={{ height: "60px" }} />
         <div style={{ textAlign: "center", color: "black" }}>
           <CloudFilled
             style={{ color: "#00CCFF", fontSize: 40, paddingTop: 30 }}
